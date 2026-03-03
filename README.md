@@ -1,4 +1,6 @@
 # SVD and ICA MRI data
 
-Using SVD and ICA on fMRI time series and extracted the dominant brain networks. Each component corresponds to a spatial pattern weighted by its importance. 
-The first k components capture ~80% of the variance, illustrating that large-scale brain dynamics are low-dimensional.
+A Python project for decomposing fMRI brain activity into independent spatial and temporal patterns using Singular Value Decomposition (SVD) and Independent Component Analysis (ICA).
+Overview
+
+This project applies matrix decomposition methods to resting-state fMRI data to identify dominant patterns of brain co-activation across 100 cortical regions. It uses the Schaefer 2018 atlas for region parcellation and nilearn for neuroimaging utilities.
